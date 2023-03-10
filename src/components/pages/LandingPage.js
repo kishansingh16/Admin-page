@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import '../../App.css'
+// import '../../App.css';
+import "../../css/LandingPage.css"
 import Image from '../../assets/images/bg.jpg'
 
 
@@ -18,9 +19,9 @@ export default function LandingPage() {
     return (
         
         <header style={ HeaderStyle }>
-            <h1 className="main-title text-center">Welcome to MarketCap</h1>
-            <p className="main-para text-center">join us now</p>
-            <div className="buttons text-center">
+            <h1 className="maintitle">Welcome to MarketCap</h1>
+            <p className="main-para">join us now</p>
+            <div className="buttons">
                 <Link to="/login">
                     <button className="primary-button">log in</button>
                 </Link>
